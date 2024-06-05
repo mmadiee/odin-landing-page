@@ -54,12 +54,20 @@ body {
     margin-top: 24px;
 }
 
-
-
 .info {
   background-color: #424242;
   padding: 70px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.box{
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
 
 .quote {
   background-color: #f2f2f2;
